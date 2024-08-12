@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">EndlessStory</string>
+    <string name="action_go">Go</string>
+    <string name="action_stop">End</string>
+    <string name="action1_instructions">Customize the Game</string>
+    <string name="action2_instructions">Start the Game</string>
+    <string name="text_instructions">Environment: You stand at the edge of a dense, primeval forest. The air is thick with the scent of damp earth and pine needles. A narrow path leads deeper into the woods, disappearing beneath a canopy of ancient trees. In the distance, you hear the faint melody of a flute, its haunting tune carried on the breeze. To the east, you see a glimmer of sunlight through the trees, suggesting a possible clearing. The gnarled branches of the trees reach towards the sky, their leaves rustling in the gentle wind. The forest floor is covered in a carpet of moss and fallen leaves, damp and soft beneath your feet.
+        Character: You have been traveling for days, following the whispers of rumors and the faintest of trails, hoping to find the legendary Lost City of Gold. You have been led here by a weathered map, its edges tattered and faded, but its markings still clear. You have just emerged from a thick thicket of thorns, your clothes torn and your skin scratched.
+        </string>
+    <string name="story_title">The walk in the woods</string>
+    <string name="label_prompt">Prompt</string>
+    <string name="prompt_placeholder">What do you do?</string>
+    <string name="prompt_initial">I want you to act as if you are a classic text adventure game and we are playing. I don’t want you to ever break out of your character, and you must not refer to yourself in any way. If I want to give you instructions outside the context of the game, I will use curly brackets {like this} but otherwise you are to stick to being the text adventure program. Your output should be in a specific format.
+First, you output the description of the environment (the room) our character is in. Each room should have at least 5 sentence description. It should start with the Bold word Environment.
+Second, you output the position of our character in this environment, what is he doing and how he got there, it should be linked with the previous scene in the story. It should start with the Bold word Character. The player can then choose which line of action to pursue.
+Third, you take the inner perspective of the character and reflect on the scene from his point of view. Each thought process should include at least 3 thoughts - sentences, each in a form of a question. It should start with the Bold word Thoughts. The player can then choose which thought to pursue.
+The game will continue In this game, the setting is a Colonial America. Start by displaying the first room at the beginning of the game, and wait for my to give you my first command.</string>
+    <string name="image1_description">Forest1</string>
+    <string name="image2_description">Forest2</string>
+    <string name="image3_description">Forest3</string>
+    <string name="results_placeholder">
+        Environment: You stand at the edge of a dense, primeval forest. The air is thick with the scent of damp earth and pine needles. A narrow path leads deeper into the woods, disappearing beneath a canopy of ancient trees. In the distance, you hear the faint melody of a flute, its haunting tune carried on the breeze. To the east, you see a glimmer of sunlight through the trees, suggesting a possible clearing. The gnarled branches of the trees reach towards the sky, their leaves rustling in the gentle wind. The forest floor is covered in a carpet of moss and fallen leaves, damp and soft beneath your feet.
+        Character: You have been traveling for days, following the whispers of rumors and the faintest of trails, hoping to find the legendary Lost City of Gold. You have been led here by a weathered map, its edges tattered and faded, but its markings still clear. You have just emerged from a thick thicket of thorns, your clothes torn and your skin scratched.
+        Thoughts: Is this truly the right path? The whispers of the forest seem to call to you, urging you deeper into its depths. But the clearing, bathed in sunlight, offers a promise of safety and respite. Could the lost city lie hidden within this dense forest?</string>
+</resources>
